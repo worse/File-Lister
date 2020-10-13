@@ -10,17 +10,12 @@ import java.util.stream.Collectors;
 
 public class Main {
 
-    public static void main(String[] args) {
-        ListFiles();
-    }
-
     @SneakyThrows
-    private static void ListFiles() {
+    public static void main(String[] args) {
         List<Path> results = Files.list(Paths.get("D:/Music/Unreleased/juicewrld"))
                 .map(Path::getFileName)
                 .collect(Collectors.toList());
         results.forEach(System.out::println);
-
     }
 
 }
