@@ -7,7 +7,7 @@
 1. Compile the jar
 2. Drag the file into the folder you'd like to list the contents of
 3. Open your command prompt or terminal and cd to your directory with the file
-4. Run the jar file using ```java -jar file-lister.jar```
+4. Run the jar file using ```java -jar FileLister-1.0-SNAPSHOT.jar```
 
 ### How to compile
 ---
